@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="container valign-wrapper">
+      <div class="row">
+        <div class="col s12">
+          <div class="card horizontal">
+            <div class="card-stacked">
+              <div class="card-content">
+                <div id="demo"></div>
+              </div>
+              <div class="card-action">
+                <label for="text">Enter the text:</label>
+                <input
+                  class="inputtext"
+                  type="text"
+                  id="ctext"
+                  value="Hello There!"
+                  placeholder="Change the text here..."
+                />
+                <div class="input-field">
+                  <select id="font">
+                    <option value="3D Diagonal">3D Diagonal</option>
+                    <option value="Dancing Font">Dancing Font</option>
+                    <option value="Ghost">Ghost</option>
+                    <option value="Graffiti">Graffiti</option>
+                    <option value="Patorjk's Cheese">Patorjk's Cheese</option>
+                    <option value="Standard" selected>Standard</option>
+                    <option value="Pagga">Pagga</option>
+                    <option value="Pawp">Pawp</option>
+                  </select>
+                  <label for="font">Font:</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./main.js" type="module"></script>
+  </body>
+</html>
